@@ -1,0 +1,110 @@
+.la-container{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+}
+.la-article-container{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 34px;
+}
+.la-article-image-div{
+    width: 85%;
+    max-height: 370px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.la-article-image{
+    width: 90%;
+    height: 100%;
+}
+.la-article-info-div{
+    width:85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.la-article-info{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+.la-article-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.la-article-user-body{
+    width: 70%;
+    margin-top: 10px;
+    display: flex;
+}
+.la-article-user{
+    margin-top: 6px;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+.la-article-title{
+    margin-bottom: 9px;
+    font-weight: bold;
+}
+.la-article-content{
+    font-size: 13px;
+    width: 92%;
+}
+.la-article-content figure{
+    display: none;
+}
+.la-article-readmore-div{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 11px;
+}
+.la-article-readmore{
+   margin-bottom: 8px;
+}
+.la-article-readmore:hover{
+    cursor: pointer;
+}
+.la-like-icon:hover{
+    cursor: pointer;
+}
+.read-more-btn{
+    background-color: #6e81eb !important;
+    font-size: 10px !important;
+    color: white !important;
+}
+.divider-root{
+    width: 80%;
+    margin-top: 32px !important;
+}
+@media only screen and (max-width: 700px){
+    .la-article-container{
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .la-article-container{
+        width: 100%;
+        font-size: 14px;
+    }
+    .la-article-content{
+        font-size: 10px;
+    }
+    .la-article-image-div{
+        max-height: 240px;
+    }
+}

@@ -1,0 +1,128 @@
+.va-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
+.va-body{
+    width: 65%;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #ffffffeb;;
+}
+.va-article-image-container{
+    width:95%;
+    min-width: 340px;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.va-article-image-body{
+    width:85%;
+    height:350px;
+}
+.va-article-image{
+    width: 100%;
+    height: 100%;
+}
+.va-article-head-container{
+    width: 95%;
+    min-width: 320px;
+    min-height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.va-article-head-body{
+    margin-top: 30px;
+    width: 85%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+}
+.va-article-head-title{
+    width: 70%;
+    height:30px;
+}
+.va-article-head-title h3{
+    margin: 0;
+    text-align: left;
+}
+.va-article-head-date{
+    width: 30%;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.va-article-head-date h5{
+    margin: 0;
+}
+.va-article-head-hr{
+    width: 87%;
+}
+.va-article-content-container{
+    width: 93%;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+}
+.va-article-content-body{
+    width: 90%;
+}
+.va-article-content{
+    display: flex;
+    justify-content: flex-start;
+}
+.va-description-content{
+    text-align: left;
+}
+.va-description-content figure{
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+.va-description-content img{
+    height:450px;
+    width: 89%;
+
+}
+.va-article-footer{
+    margin-top: 30px;
+    width: 90%;
+    min-width: 320px;
+    height: 40px;
+}
+.va-article-footer-body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.va-article-footer-body p {
+    padding-left: 15px;
+}
+.va-empty-space{
+    margin-top: 30px;
+    width: 100%;
+    height:100px;
+}
+
+@media only screen and (max-width:750px){
+    .va-description-content img{
+        height:350px
+    }
+}
+@media only screen and (max-width:650px){
+    .va-article-image-body{
+        height:280px;
+    }
+    .va-description-content img{
+        height:300px
+    }
+}

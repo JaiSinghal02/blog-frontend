@@ -1,0 +1,87 @@
+.ya-article-content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 7px;
+}
+
+.ya-article-image-container{
+    width:30%;
+    max-width: 80px;
+    height:100px;
+    padding-right: 15px;
+}
+.ya-article-image-body{
+    height: 100%;
+    width: 90%;
+}
+.ya-article-image{
+    height:90%;
+    width: 100%;
+}
+.ya-article-text-container{
+    width: 670px;
+    max-width: 93%;
+    height:100px;
+    padding-left: 10px;
+    padding-right: 15px;
+    
+}
+.ya-article-text-container:hover{
+    cursor: pointer;
+}
+.ya-article-text-body{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ya-article-text-title{
+    height:25px;
+    font-weight: 600;
+}
+.ya-article-text-title p{
+    margin: 0;
+}
+.ya-article-text-desc{
+    height:70px;
+    display: flex;
+    justify-content: flex-start;
+}
+.ya-article-text-desc figure{
+    display: none;
+}
+.ya-article-text-desc p{
+    text-align: start;
+    margin: 8px 0;
+}
+.ya-article-icons-container{
+    width: 40%;
+    max-width: 130px;
+    height:100px;
+}
+.ya-article-icons-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ya-article-icon-addnote,.ya-article-icon-deletenote{
+    padding: 0 10px;
+}
+.ya-article-icon-addnote:hover,.ya-article-icon-deletenote:hover{
+    cursor: pointer;
+}
+.ya-divider-root{
+    width: 100%;
+    margin-left: 20px !important;
+}
+
+@media only screen and (max-width:530px){
+    .ya-article-image-container{
+        display: none;
+    }
+}
